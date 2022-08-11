@@ -1,0 +1,17 @@
+{
+
+  "name": "Rajat",
+  "job": "hacker",
+  "address": {
+            "flat": "407",
+            "building": "India gate"
+  },
+  "number": [23567,3566778],
+
+  "company": {
+    "cname": "jar",
+    "cdomain": "finance",
+    "clients": ["paypal","tesla","google"]
+  }
+
+}
