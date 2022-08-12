@@ -17,7 +17,7 @@ public class DeleteCustomerTestCases  extends BaseClass {
 
     @Test(dataProviderClass = dataprovider.DataUtil.class,dataProvider = "sendData")
     public void deletingCustomerWithValidID(Hashtable<String,String> data){
-
+//Inside DeleteCUtsomerAPI
         Response response = DeleteCUstomerAPI.sendDeleteRequestToDeleteCustomerAPIWithValidID(data);
         Listenes.test.get().info(data.toString());
         response.prettyPrint();
